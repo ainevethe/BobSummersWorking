@@ -515,6 +515,10 @@ html body {
    background: #001a00 !important;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+}
+
 .navbar-custom {
     color: beige;
     background-color: black;
@@ -530,6 +534,9 @@ html body {
     background-color: floralwhite;
 }
 
+.centered {
+    text-align: center;
+}
 .headline {
     
     text-align: right;
@@ -570,7 +577,7 @@ body {
   background-color: #333;
   padding: 0px;
   margin: 0px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .bullets {
@@ -674,19 +681,10 @@ margin: 20px;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.quote {
+    font-style: italic;
+    font: 13px;
+}
 
 
 
@@ -746,6 +744,7 @@ a:hover span {
     
     background-color: floralwhite;
     width: auto;
+    overflow-y: auto;
 }
 
 .middle2 {
@@ -984,8 +983,8 @@ audio {
     color: black;
 }
 .insertphotosml {
-    float: left;
-    max-width: 300px;
+    
+    max-width: 600px;
     padding: 20px;
 }
 
@@ -1069,6 +1068,7 @@ nav li {
     
     position: relative;
 }
+
 
 .buttonbarwide {
     position: absolute;
@@ -1183,7 +1183,7 @@ nav li {
     color: green;
 }
 .logopic {
-    max-width: 250px;
+    max-width: 350px;
     margin-left: 60px;
     position: absolute;
     box-shadow: 8px 8px 10px #1a1a1a;
@@ -1440,7 +1440,7 @@ input.search-query {
      .content {
          width: 110%;
          padding: 10px;
-         background-color: aliceblue
+         background-color: aliceblue;
      }
      
      .content p {
@@ -1448,8 +1448,12 @@ input.search-query {
      }
      
      .insertphotosml {
-        
-         display: none;
+             
+    float: left;
+    max-width: 150px;
+    padding: 20px;
+         display: block;
+}
 }
      h2.titled {
          font-size: 20px;
@@ -1500,7 +1504,7 @@ input.search-query {
      
      .content {
          width: 100%;
-         padding-top: 10px;
+         padding-top: 110px;
          background-color: floralwhite;
      }
      
@@ -1511,9 +1515,9 @@ input.search-query {
      
      .insertphotosml {
     float: left;
-    max-width: 220px;
+    max-width: 270px;
     padding: 20px;
-         display: none;
+
 }
      .floatr {
          width: 100%;
@@ -1556,11 +1560,12 @@ input.search-query {
      }
      .content {
          width: 100%;
+         background-color: floralwhite;
      }
      
      .insertphotosml {
     float: left;
-    max-width: 300px;
+    max-width: 350px;
     padding: 20px;
          display: block;
 }
@@ -1617,7 +1622,7 @@ input.search-query {
     
     .insertphotosml {
     float: left;
-    max-width: 330px;
+    max-width: 460px;
     padding: 20px;
 }
     .middles {
@@ -1628,6 +1633,10 @@ input.search-query {
     margin-bottom: 190px;
     
 }
+    
+    .content p {
+        font-size: 14px;
+    }
     
     .round {
         
@@ -1650,7 +1659,7 @@ input.search-query {
      }
     
     .content p {
-        font-size: 13px;
+        font-size: 14px;
     }
     .content {
         width: 80%
@@ -1666,6 +1675,12 @@ input.search-query {
    margin-top: 100px;
 
 }
+    
+    .insertphotosml {
+        
+        max-width: 500px;
+        max-height: 300px;
+    }
     .middles {
 
     margin: 0 auto;
