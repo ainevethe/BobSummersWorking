@@ -1437,6 +1437,10 @@ input.search-query {
          
      }
      
+     .logopic {
+         max-height: 130px;
+     }
+     
      .content {
          width: 110%;
          padding: 10px;
@@ -1473,6 +1477,7 @@ input.search-query {
 }
      .logopic {
          max-height: 130px;
+
      }
      .rowMe li {
     display: inline-block;
@@ -1521,6 +1526,10 @@ input.search-query {
 }
      .floatr {
          width: 100%;
+     }
+     
+     .logopic {
+         max-height: 120px;
      }
 }
 
@@ -1586,6 +1595,10 @@ input.search-query {
     margin-top: 100px;
      
 }
+     
+     .logopic {
+         max-height: 150px;
+     }
 }
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width : 992px) {
@@ -1633,6 +1646,9 @@ input.search-query {
     margin-bottom: 190px;
     
 }
+    .logopic {
+         max-height: 150px;
+     }
     
     .content p {
         font-size: 14px;
@@ -1675,6 +1691,10 @@ input.search-query {
    margin-top: 100px;
 
 }
+    
+    .logopic {
+         max-height: 160px;
+     }
     
     .insertphotosml {
         
