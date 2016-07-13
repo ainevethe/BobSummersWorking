@@ -801,6 +801,16 @@ a:hover span {
     float: left;
     width: 100%;
 }
+.middlecontentaa { 
+    
+    margin-bottom: 120px;
+    width: auto;
+    margin: 0 auto;
+    float: right;
+    
+    
+    
+}
 
 .middlecontent4 {
     margin-bottom: 60px;
@@ -1066,9 +1076,14 @@ nav li {
 
 .nurseryimages {
     
+    width: auto;
     position: relative;
 }
 
+.movinup {
+    
+    margin-top: -50px
+}
 
 .buttonbarwide {
     position: absolute;
