@@ -2,6 +2,6 @@
 testing school site (mixture of code - test github only) 
 
 
-This is not a full site, or even solid code (phew!)   
+Just learning!  (This is an assignment, the result of many individual requirements that we needed to include)
 
-This is a mishmash of learning and random code to learn coding and github.  Just carry on :) 
+
