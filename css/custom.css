@@ -407,7 +407,6 @@ form {
     margin-left: 0 auto;
     margin-right: 0 auto;
     margin-bottom: 20px;
-    position: absolute;
     display: inline-block;
     border: none;
     padding: 20px 10px 10px 10px;
@@ -776,7 +775,15 @@ a:hover span {
     left: 0;
     right: 0;
     margin: 0 auto;
-    padding-left: 10px;
+    padding-left: 30px;
+}
+
+.middlestufflawn {
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-left: 30px;
 }
 
 .middlestuffgallery {
@@ -799,17 +806,14 @@ a:hover span {
     
     margin-bottom: 60px;
     float: left;
-    width: 100%;
+    width: 85%;
 }
 .middlecontentaa { 
     
     margin-bottom: 120px;
     width: auto;
     margin: 0 auto;
-    float: right;
-    
-    
-    
+    float: right;    
 }
 
 .middlecontent4 {
@@ -961,7 +965,7 @@ a:hover span {
     padding: 50px;
     width: 80%;
     margin-top: 20px;
-    overflow-y: scroll
+
 }
 .modal-content {
     
@@ -1012,7 +1016,6 @@ nav li {
 .scrolla {
     
     height:560px;
-    overflow-y: auto;
     margin-top: 10px;
 }
 
@@ -1460,7 +1463,7 @@ input.search-query {
      }
      
      .content {
-         width: 110%;
+         width: 90%;
          padding: 10px;
          background-color: aliceblue;
      }
@@ -1526,7 +1529,7 @@ input.search-query {
      }
      
      .content {
-         width: 100%;
+         width: 90%;
          padding-top: 110px;
          background-color: floralwhite;
      }
@@ -1668,6 +1671,9 @@ input.search-query {
          max-height: 150px;
      }
     
+    .content {
+        width: 108%;
+    }
     .content p {
         font-size: 14px;
     }
@@ -1719,6 +1725,11 @@ input.search-query {
         max-width: 500px;
         max-height: 300px;
     }
+    
+    .middlecontentlawn {
+        width: 65%;
+    }
+    
     .middles {
 
     margin: 0 auto;
